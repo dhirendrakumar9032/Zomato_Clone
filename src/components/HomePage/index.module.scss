@@ -1,0 +1,67 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    background-image: url('../../resources/images/nav-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10%;
+        height: 80px;
+
+        .getApp{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        ul{
+            display: flex;
+            gap:40px;
+            justify-content: space-between;
+            text-decoration: none;
+            list-style: none;
+        }
+        li{
+            cursor: pointer;
+        }
+        
+    }
+
+    .searchContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        gap: 30px;
+        height: 300px;
+
+        .title{
+            text-align: center;
+            height: 6rem;
+            width: 30rem;
+        }
+        .subtitle{
+            display: flex;
+            gap: 5px;
+            font-size: 2.25rem;
+            font-weight: 400;
+        }
+
+        .locationSearch{
+            display: flex;
+            width: 200px;
+        }
+
+        .restaurantSearch{
+          min-width: 150px;
+          width: 100%;
+        }
+    }
+}
